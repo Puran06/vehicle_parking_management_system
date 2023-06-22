@@ -1,0 +1,52 @@
+/* Style for the header section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style for the logo */
+  .logo img {
+    height: 50px;
+  }
+  
+  /* Style for the menu */
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the content section */
+  .content {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
