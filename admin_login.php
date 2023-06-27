@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["username"]) && isset($
 	if ($result->num_rows == 1) {
 		// Set session variables and redirect to dashboard
 		$_SESSION["admin_username"] = $username;
-		header("Location: admin_dashboard.php");
+		header('Location: ../y/dashboard.php');
 		exit();
 	} else {
 		// Display error message

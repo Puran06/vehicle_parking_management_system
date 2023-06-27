@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, select {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  #edit-user-form-container,
+  #edit-parking-lot-form-container,
+  #edit-vehicle-entry-form-container {
+    margin-top: 20px;
+  }
+  
